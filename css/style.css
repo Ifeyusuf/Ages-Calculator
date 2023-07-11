@@ -1,0 +1,80 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+  }
+  html{
+    scroll-behavior: smooth;
+    scrollbar-width: thin;
+  }
+  body{
+    font-family: "poppins";
+  }
+  :root{
+    --primary:#f8f9fa;
+    --red:red;
+    --dark:black;
+    --white:white;
+    --white-2:#91a099;
+    --white-3:#edf0ef;
+    --green:hsl(120, 82%, 57%);
+    --green-2: #439351;
+    --green-3: #35d187;
+    --green-4: #0c322b;
+    --green-5: #0b2b1a;
+    --darkg: #0a2c1b;
+    --pink: #d1337e;
+  }
+  .container{
+    width: min(100% - 15px, 1200px);
+    margin-inline: auto;
+  }
+  section{
+    width: 100%;
+    height: auto;
+    background-color: var(--green-4);
+  }
+  .section{
+    height: 100vh;
+    background-color: var(--green-4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .section article{
+    height: auto;
+    min-width: 350px;
+    background-color: var(--white-3);
+    border-radius: 10px;
+  }
+  article h1{
+    padding: 10px 5px 0px 5px;
+    text-align: center;
+  }
+  .input{
+    text-align: center;
+    padding: 20px 0;
+  }
+  input[type=date]{
+    padding: 10 ;
+    width: 250px;
+    height: 35px;
+  }
+  .button{
+   text-align: center;
+   padding: 5px 0;
+  }
+  .btn{
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 16px;
+    border: none;
+    background-color: var(--green-2);
+    color: var(--primary);
+  }
+  .result{
+    text-align: center;
+    padding: 10px 0;
+  }
